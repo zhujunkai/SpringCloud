@@ -2,6 +2,6 @@ server:
   port: 8082
 spring:
   application:
-    name: article
+    name: article,feign,database,redis,key
   profiles:
     active: dev
